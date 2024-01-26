@@ -1,24 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import HomePage from './components/Student/StudendDashboard'
+import PasswordGenerator from './components/PasswordGenerator';
+import CurrencyConverter from './components/CurrencyConverter';
+import ReactDom from 'react-dom/client'
+import useCurrencyInfo from './hooks/useCurrencyInfo';
+import StudentDashboard from './components/Student/StudendDashboard';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
     </div>
   );
 }
