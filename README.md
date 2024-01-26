@@ -1,7 +1,14 @@
 # Live Demo on Vercel
-URL: https://student-dashboard-eight-beta.vercel.app/
-Currently using Github APIs to fetch data, any github username can be passed after /student/{username}
-URL: https://student-dashboard-eight-beta.vercel.app/student/arkxdy
+
+### `URL:` 
+
+https://student-dashboard-eight-beta.vercel.app/
+
+## Currently using Github APIs to fetch data, any github username can be passed after /student/{username}
+
+### `URL:`
+
+https://student-dashboard-eight-beta.vercel.app/student/arkxdy
 
 # Future plans
 ...
