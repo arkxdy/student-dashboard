@@ -1,3 +1,18 @@
+# Live Demo on Vercel
+
+### `URL:` 
+
+https://student-dashboard-eight-beta.vercel.app/
+
+## Currently using Github APIs to fetch data, any github username can be passed after /student/{username}
+
+### `URL:`
+
+https://student-dashboard-eight-beta.vercel.app/student/arkxdy
+
+# Future plans
+...
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
