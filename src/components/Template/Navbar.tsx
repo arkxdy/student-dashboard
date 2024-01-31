@@ -1,7 +1,7 @@
 import path from "path";
 import React from "react";
 import { Url } from "url";
-import { navObject } from '../props/template';
+import { navObject } from '../../props/template';
 import { Link } from "react-router-dom";
 
 const navigation:navObject[] = [

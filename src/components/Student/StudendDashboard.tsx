@@ -2,13 +2,14 @@ import React from "react";
 import Student from './Student'
 import { githubDashboard } from "../../props/template";
 import useStudentDashboard from "../../hooks/useStudentDashboard";
+import { Loading } from "../Template/Loading";
 
 const StudentDashboard = () => {
     const studentDashboardData: githubDashboard[] | undefined = useStudentDashboard();
     console.log('dash', studentDashboardData);
     if(studentDashboardData === undefined){
         return (
-            <div>Loading</div>
+            <Loading></Loading>
         )
     }
     return(

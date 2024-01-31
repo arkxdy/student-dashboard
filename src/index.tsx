@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Route,createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
-import Layout from './components/Layout';
+import Layout from './components/Template/Layout';
 import StudentDashboard from './components/Student/StudendDashboard';
 import About from './pages/About';
 import StudentProfile from './components/Student/StudentProfile';

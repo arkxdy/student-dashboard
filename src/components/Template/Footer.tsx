@@ -1,5 +1,5 @@
 import React from "react";
-import { navObject } from '../props/template'
+import { navObject } from '../../props/template'
 const Footer = () => {
     
     const navigation:navObject[] = [
