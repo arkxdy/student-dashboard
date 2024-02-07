@@ -10,6 +10,7 @@ import About from './pages/About';
 import StudentProfile from './components/Student/StudentProfile';
 import Error from './pages/Error';
 import UnderDevelopment from './pages/UnderDevelopment';
+import Signin from './components/Admin/Signin';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -18,9 +19,8 @@ const router = createBrowserRouter(
       <Route path='student' element={<StudentProfile></StudentProfile>}>
         <Route path=':username' element={<StudentDashboard></StudentDashboard>}/>
       </Route>
-      <Route path='about' element={<About></About>}>
-        <Route path=':userid' element={<About/>}></Route>
-      </Route>
+      <Route path='login' element={<Signin></Signin>}></Route>
+      <Route path='about' element={<About></About>}></Route>
       <Route path='team' element={<UnderDevelopment></UnderDevelopment>}></Route>
       <Route path='courses' element={<UnderDevelopment></UnderDevelopment>}></Route>
       <Route path='admin' element={<UnderDevelopment></UnderDevelopment>}></Route>

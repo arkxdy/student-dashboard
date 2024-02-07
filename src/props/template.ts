@@ -54,4 +54,9 @@ export interface githubDashboard{
     events_url:string,
     type:string,
     site_admin:boolean
-    }
+}
+
+export interface userLoginCredential {
+    email:string,
+    password:string
+}
